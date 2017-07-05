@@ -33,11 +33,10 @@ def uploadFileToDatabase():
 
 def verifyConnection():
     connection = connectToLocalDatabase()
-    connection = connectToLocalDatabase()
     results = []
     try:
         with connection.cursor() as cursor:
-            sql_statement='select * from demotable'
+            sql_statement='select * from classes'
             cursor.execute(sql_statement)
             results = cursor.fetchall()
             for row in results:
