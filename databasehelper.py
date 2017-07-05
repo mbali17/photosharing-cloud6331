@@ -23,7 +23,7 @@ def connectToLocalDatabase():
      connection = sql.connect(host="cloud6331-az.mysql.database.azure.com",
                              port=3306,
                              user="mba@cloud6331-az",
-                             password="Passis1234$#",
+                             password="",
                              db="testdb",
                              charset='utf8mb4',
                              cursorclass=sql.cursors.DictCursor)
