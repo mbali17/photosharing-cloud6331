@@ -7,7 +7,7 @@ from app  import app
 #TODO:Move the config to a file
 def connectToLocalDatabase():
     connection = con.connect(user="mba@cloud6331-az",
-                                         password="Passis1234$#",
+                                         password="",
                                          host="cloud6331-az.mysql.database.azure.com",
                                          port=3306,
                                          database="testdb",ssl_verify_cert=False,ssl_ca="")
